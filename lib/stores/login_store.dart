@@ -7,9 +7,9 @@ class LoginStore = _LoginStore with _$LoginStore;
 abstract class _LoginStore with Store {
 
   @observable
-  String email = 'willian@gmail.com';
+  String email = '';
   @observable
-  String password = '123123';
+  String password = '';
   @observable
   bool passwordVisible = true;
   @observable
